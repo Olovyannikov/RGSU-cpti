@@ -1,0 +1,35 @@
+.hero {
+    background: url('../img/index-hero.jpg') no-repeat center;
+    background-size: cover;
+    position: relative;
+    z-index: -1;
+    margin-bottom: 51px;
+    &::after {
+        position: absolute;
+        content: '';
+        display: block;
+        width: 100%;
+        bottom: 0;
+        height: 284px;
+        z-index: -1;
+        background: linear-gradient(360deg, rgba(21, 24, 25, 0.75) 0%, rgba(18, 33, 45, 0.733863) 24.34%, rgba(12, 50, 84, 0.703125) 45.14%, rgba(12, 50, 84, 0) 84.97%);;
+    }
+}
+
+.hero__wrapper {
+    @include col;
+}
+
+.hero__title {
+    padding-top: 300px;
+}
+
+.hero__description {
+    font-size: rem-calc(14);
+    line-height: rem-calc(19.32);
+    margin: 0;
+    margin-top: 29px;
+    padding-bottom: 35px;
+    color: $c-white-0;
+    @include size(7.4);
+}

@@ -2,16 +2,16 @@ module.exports = {
 
     outputStyle: 'scss',
     columns: 12,
-    offset: '12',
+    offset: '12px',
     mobileFirst: true,
     container: {
-        maxWidth: '1440px',
-        fields: '16px'
+        maxWidth: '1180px',
+        fields: '30px'
     },
     breakPoints: {
         lg: {
             width: '1200px',
-            fields: '160px'
+            fields: '24px'
         },
         md: {
             width: '992px'

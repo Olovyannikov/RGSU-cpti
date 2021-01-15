@@ -1,0 +1,10 @@
+.services__list {
+    @include list-reset;
+    @include row-flex;
+}
+
+.services__item {
+    svg {
+        fill: $c-blue-700;
+    }
+}

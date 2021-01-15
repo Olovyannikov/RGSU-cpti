@@ -6,15 +6,19 @@
 
 //scaffolding (base style for base elements)
 
-// @import "general/fonts";
-// @import "general/variables";
-// @import "general/mixins";
+@import "general/fonts";
+@import "general/variables";
+@import "general/mixins";
 @import "general/rem-calc";
-// @import "general/scaffolding";
+@import "general/scaffolding";
 
-// //blocks (styles for blocks)
-// @import "blocks/header/header";
-@import "blocks/header/header-index";
+//blocks (styles for blocks)
+@import "blocks/header/header";
+@import "blocks/header/social";
+@import "blocks/header/menu";
+@import "blocks/hero/hero";
+@import "blocks/features/features"
+// @import "blocks/header/header-index";
 // @import "blocks/header/navigation";
 
 // @import "blocks/main/welcome";

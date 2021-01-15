@@ -1,0 +1,42 @@
+.header {
+    padding-top: 20px;
+}
+
+.header__wrapper {
+    @include row-flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    @include col();
+}
+
+.header__logo {
+    height: 40px;
+    display: block;
+    svg {
+        fill: $c-blue-700;
+    }
+    @include size(3);
+    @include md-block {
+        @include size(2.111);
+    }
+}
+.header__title {
+    @include size(6.7);
+}
+
+.header__link {
+    margin-top: 10px;
+    font-size: rem-calc(14);
+    line-height: rem-calc(16.41);
+    @include size(12);
+    @include md-block {
+        @include size(2.25);
+        margin-top: 0;
+    }
+}
+
+.header__menu {
+    background: $c-grey-400;
+    margin: 0 auto;
+}

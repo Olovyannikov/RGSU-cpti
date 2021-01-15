@@ -8,7 +8,6 @@ let path = {
         js: project_folder + "/js/",
         img: project_folder + "/img/",
         fonts: project_folder + "/fonts/",
-        video: project_folder + "/video/",
     },
     src: {
         html: [
@@ -23,7 +22,6 @@ let path = {
         js: source_folder + "/js/script.js",
         img: source_folder + "/img/**/*.{png,jpeg,jpg,gif,ico,webp,svg}",
         fonts: source_folder + "/fonts/*.{woff,woff2,ttf,svg}",
-        video: source_folder + "/video/*",
     },
     watch: {
         html: source_folder + "/**/*.html",
@@ -31,7 +29,6 @@ let path = {
         css: source_folder + "/scss/**/*.scss",
         js: source_folder + "/js/**/*.js",
         img: source_folder + "/img/**/*.{png,jpeg,jpg,svg,gif,ico,webp}",
-        video: source_folder + "/video/*.{webm}",
     },
     clean: "./" + project_folder + "/",
 };
@@ -161,7 +158,7 @@ function js() {
                     new webpack.ProvidePlugin({
                         $: 'jquery',
                         jQuery: 'jquery'
-                    }),
+                    })
                 ],
             })
         )
@@ -239,7 +236,7 @@ function watchFiles(params) {
     gulp.watch([path.watch.pug], pug2html);
     gulp.watch([path.watch.css], { usePolling: true }, css);
     gulp.watch([path.watch.js], js);
-    gulp.watch([path.watch.img], images);
+    gulp.watch([path.watch.img], images, svgsprite);
     gulp.watch('./smartgrid.js', grid);
 }
 
@@ -255,8 +252,8 @@ function grid(callback) {
 }
 
 let build = gulp.series(
-    clean,
-    gulp.parallel(svgsprite, images, js, css, pug2html, fonts)
+    clean, images, svgsprite,
+    gulp.parallel(js, css, pug2html, fonts)
 );
 let watch = gulp.parallel(build, watchFiles, browserSync);
 
