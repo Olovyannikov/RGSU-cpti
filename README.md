@@ -7,10 +7,10 @@
 6. [Smart-Grid](https://grid4web.ru/basics/about);
 
 # View
-https://olovyannikov.github.io/smart-grid/build
+https://olovyannikov.github.io/RGSU-cpti/build
 
 # Source code
-https://github.com/Olovyannikov/smart-grid
+https://github.com/Olovyannikov/RGSU-cpti
 
 # Install
 
