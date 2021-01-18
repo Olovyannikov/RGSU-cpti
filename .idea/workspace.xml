@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b7dbe59b-e121-4656-a8ec-26ebfd630d77" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/RGSU-cpti.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/stylesheetLinters/stylelint.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pug/pages/commerce.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pug/pages/information.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pug/pages/property.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pug/pages/registration.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pug/sections/_commerce.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pug/sections/_information.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pug/sections/_property.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pug/sections/_registration.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pug/sections/components/breadcrumbs/_breadcrumbs.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pug/sections/components/commerce/_commerce.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pug/sections/components/form/_form.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pug/sections/components/info-bottom/_info-bottom.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pug/sections/components/information/_information.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pug/sections/components/property/_property.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/blocks/breadcrumbs/_breadcrumbs.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/blocks/footer/_footer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/blocks/form/_form.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/blocks/information/_information.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/blocks/property/_property.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/style.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/img/icons/icons.svg" beforeDir="false" afterPath="$PROJECT_DIR$/build/img/icons/icons.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/smartgrid.js" beforeDir="false" afterPath="$PROJECT_DIR$/smartgrid.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/sections/components/footer/_footer.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/sections/components/footer/_footer.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/sections/components/services/_services.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/sections/components/services/_services.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/blocks/header/_header-index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/header/_header-index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/blocks/header/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/header/_header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/blocks/header/_menu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/header/_menu.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/blocks/header/_social.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/header/_social.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/blocks/services/_services.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/services/_services.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/general/fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/general/fonts.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/general/scaffolding.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/general/scaffolding.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/general/variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/general/variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/vendor/smart-grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/vendor/smart-grid.scss" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1nEKhhtwu7Zkf0NodNt4Hp1JRPZ" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.stylelint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.stylelint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.stylelint" value="$PROJECT_DIR$/node_modules/stylelint" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/pug/sections" />
+      <recent name="$PROJECT_DIR$/src/pug/pages" />
+      <recent name="$PROJECT_DIR$/src/img/icons" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b7dbe59b-e121-4656-a8ec-26ebfd630d77" name="Default Changelist" comment="" />
+      <created>1610949972916</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1610949972916</updated>
+      <workItem from="1610950033025" duration="16443000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Update imgs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update imgs" />
+  </component>
+</project>
