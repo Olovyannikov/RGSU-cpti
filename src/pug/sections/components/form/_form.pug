@@ -1,0 +1,25 @@
+.registration-form__container.container
+    .registration-form__wrapper
+        h3.registration-form__title.title.title--big Форма для регистрации разработки РИД
+        form.registration-form__form
+            input.registration-form__input(placeholder="Наименование разработки" type="text" id="title" name="title")
+            input.registration-form__input(placeholder="Аннотация" type="text" id="annotation" name="annotation")
+            input.registration-form__input(placeholder="Сфера применения" type="text" id="area" name="area")
+            input.registration-form__input(placeholder="Конкуретные преимущества" type="text" id="advantages" name="advantages")
+            input.registration-form__input(placeholder="Ключевые слова" type="text" id="keywords" name="keywords")
+            input.registration-form__input(placeholder="Авторы" type="text" id="authors" name="authors")
+            input.registration-form__input(placeholder="Контактный телефон" type="tel" inputmode="numeric" id="tel" name="tel")
+            input.registration-form__input.registration-form__input--last-child(required=true placeholder="E-mail" type="email" id="email" name="email")
+            button(type="submit").registration-form__button.btn.btn--primary Отправить
+
+.registration-form__container.container
+    .registration-form__wrapper
+        h3.registration-form__title.title.title--big Форма для регистрации разработки РИД
+        form.registration-form__form
+            input.registration-form__input(placeholder="Имя" type="text" id="name" name="name")
+            input.registration-form__input(placeholder="Электронная почта" type="email" id="emailForm" name="emailForm")
+            label.registration-form__file(for="file") Файл не выбран
+                input(type="file" id="file" name="file")
+            textarea.registration-form__textarea(placeholder="Текст сообщения" id="textarea" name="textarea")
+            button(type="submit").registration-form__button.btn.btn--primary Отправить
+

@@ -1,13 +1,14 @@
 header .social {
     display: none;
     @media (min-width: 768px) {
-        display: flex;
         margin-left: auto;
+        display: flex;
     }
 }
 
 .social {
     display: flex;
+    @include list-reset;
 }
 
 .social__block {
@@ -32,6 +33,12 @@ header .social {
         border-radius: 50%;
         padding: 0;
     }
+    svg {
+        fill: #e3e3e3;
+    }
+}
+
+header .social__item {
     svg {
         fill: $c-blue-500;
     }

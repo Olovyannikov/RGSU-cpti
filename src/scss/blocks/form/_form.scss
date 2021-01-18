@@ -1,0 +1,75 @@
+.registration-form__container {
+    margin-bottom: 100px;
+}
+
+.registration-form__wrapper {
+    @include col;
+    background: #f6f7fb;
+    border: 1px solid #bfcad8;
+    border-radius: 2.5px;
+    padding: 32px 32px 60px;
+    @include size(12);
+    @include md-block {
+    @include size(7.945);
+    }
+}
+
+.registration-form__title {
+    margin-bottom: 41px;
+}
+
+.registration-form__input {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+    height: 50px;
+    font-size: rem-calc(14);
+    line-height: rem-calc(16.41);
+    padding-left: 17px;
+    border: 1px solid #bfcad8;
+    border-radius: 2.5px;
+    &--last-child {
+        margin-bottom: 40px;
+    }
+    &::placeholder {
+        color: #9d9d9d;
+    }
+}
+
+.registration-form__button {
+    @include size(4.25);
+    height: 55px;
+    font-weight: 500;
+    font-size: rem-calc(16);
+    line-height: rem-calc(18.75);
+}
+
+.registration-form__file {
+    cursor: pointer;
+    margin-bottom: 20px;
+    display: block;
+    color: #9d9d9d;
+    font-size: rem-calc(14);
+    line-height: rem-calc(16.41);
+    @include size(6);
+    margin-left: 50%;
+    input {
+        appearance: none;
+        display: none;
+    }
+}
+
+.registration-form__textarea {
+    border-radius: 2.5px;
+    border: 1px solid #bfcad8;
+    padding-left: 17px;
+    padding-top: 8px;
+    width: 100%;
+    min-height: 136px;
+    font-size: rem-calc(14);
+    line-height: rem-calc(16.41);
+    margin-bottom: 40px;
+    &::placeholder {
+        color: #9D9D9D;
+    }
+}

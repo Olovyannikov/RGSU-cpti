@@ -1,0 +1,36 @@
+.breadcrumbs {
+    @include row-flex;
+    margin-bottom: 26px;
+    margin-top: 20px;
+}
+
+.breadcrumbs__container {
+    width: 100%;
+}
+
+.breadcrumbs__history {
+    @include list-reset;
+    @include row-flex;
+    @include col;
+    @include size(12);
+}
+
+.breadcrumbs__item:not(:last-child) {
+    &::after {
+        color: $c-grey-300;
+        content: " > ";
+        text-decoration-line: unset;
+        vertical-align: middle;
+        font-weight: 300;
+    }
+}
+
+.breadcrumbs__link {
+    color: $c-grey-300;
+    font-size: rem-calc(14);
+    line-height: rem-calc(16.41);
+    text-decoration-line: underline;
+    &--current {
+        text-decoration-line: none;
+    }
+}

@@ -1,0 +1,90 @@
+.information__wrapper {
+    @include col;
+    @include size(7.92);
+}
+
+.information__title {
+    margin-bottom: 20px;
+}
+
+.information__desc {
+    font-size: rem-calc(24);
+    line-height: rem-calc(28.13);
+    color: $c-white-0;
+    padding: 20px 25px;
+    background: #868D97;
+    margin: 0 0 33px;
+}
+
+.information__article {
+    margin-bottom: 81px;
+}
+
+.information__article-paragraph {
+    font-size: rem-calc(14);
+    line-height: rem-calc(19.32);
+    color: #485667;
+}
+
+.information__bottom {
+    background: #f6f7fb;
+    padding-top: 40px;
+}
+
+.information__subtitle {
+    padding-left: 22px;
+    font-weight: 700;
+    font-size: rem-calc(18);
+    line-height: rem-calc(21.09);
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-bottom: 17px;
+    &::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        background: url("../img/pdf-icon.png") no-repeat center;
+        width: 14px;
+        height: 19px;
+        display: block;
+    }
+}
+
+.information__col:last-child > .information__subtitle {
+    &:before {
+        background: url("../img/link-icon.png") no-repeat center;
+    }
+}
+
+.information__list {
+    @include list-reset;
+    @include size(11.3);
+}
+
+.information__item {
+    margin-bottom: 11px;
+}
+
+.information__link {
+    color: #337AB7;
+    font-size: rem-calc(14);
+    line-height: rem-calc(16);
+}
+
+.information__bottom-wrapper {
+    @include row-flex;
+    padding-bottom: 24px;
+    @include col;
+    @include size(12);
+    margin-top: 20px;
+}
+
+.information__col {
+    margin-bottom: 10px;
+    @include md-block {
+        @include size(6);
+        margin-bottom: 0;
+    }
+}

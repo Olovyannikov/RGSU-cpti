@@ -16,26 +16,18 @@
 @import "blocks/header/header";
 @import "blocks/header/social";
 @import "blocks/header/menu";
+
+@import "blocks/breadcrumbs/breadcrumbs";
+@import "blocks/form/form";
+@import "blocks/information/information";
+@import "blocks/property/property";
+
 @import "blocks/hero/hero";
-@import "blocks/features/features"
-// @import "blocks/header/header-index";
-// @import "blocks/header/navigation";
 
-// @import "blocks/main/welcome";
+@import "blocks/features/features";
 
-// @import "blocks/main/smart";
-// @import "blocks/main/features";
+@import "blocks/services/services";
 
-// @import "blocks/main/experts";
-
-// @import "blocks/main/works";
-
-// @import "blocks/main/tarrifs";
-
-// @import "blocks/main/latest";
-
-// @import "blocks/main/design";
-
-// @import "blocks/main/contacts";
+@import "blocks/footer/footer";
 
 

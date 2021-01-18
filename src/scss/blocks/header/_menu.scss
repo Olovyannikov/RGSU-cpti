@@ -6,8 +6,9 @@
 }
 
 .menu__list {
-    @include col;
     @include list-reset;
+    @include col;
+    @include size(12);
     list-style: none;
     padding: 0;
     display: flex;

@@ -158,6 +158,16 @@ input::-webkit-search-cancel-button {
             font-weight: 500;
         }
     }
+    &--big {
+        font-size: rem-calc(36);
+        line-height: rem-calc(42);
+        font-weight: 500;
+    }
+    &--sub {
+        font-size: rem-calc(18);
+        line-height: rem-calc(21.09);
+        font-weight: 500;
+    }
 }
 
 .btn {
@@ -168,7 +178,7 @@ input::-webkit-search-cancel-button {
     line-height: rem-calc(19);
     &--primary {
         background: $c-blue-300;
-        padding: 12px 27px;
+        padding: 12px 25px;
         border-radius: 2.5px;
         transition: .2s;
         &:hover {

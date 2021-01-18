@@ -18,11 +18,11 @@
     }
     @include size(3);
     @include md-block {
-        @include size(2.111);
+        @include size(2.35);
     }
 }
 .header__title {
-    @include size(6.7);
+    @include size(7.58);
 }
 
 .header__link {
@@ -31,7 +31,7 @@
     line-height: rem-calc(16.41);
     @include size(12);
     @include md-block {
-        @include size(2.25);
+        @include size(2.5);
         margin-top: 0;
     }
 }

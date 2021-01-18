@@ -1,0 +1,31 @@
+.property__subtitle {
+    margin-bottom: 20px;
+}
+
+.property__list {
+    @include list-reset;
+}
+
+.property__item {
+    background: #f6f7fb;
+    border: 1px solid #bfcad8;
+    padding: 18px;
+    &:not(:last-child) {
+        border-bottom: none;
+    }
+}
+
+.property__title {
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: rem-calc(18);
+    line-height: rem-calc(25);
+    color: #485667;
+}
+
+.property__desc {
+    margin: 0;
+    font-size: rem-calc(14);
+    line-height: rem-calc(19.32);
+    color: #485667;
+}
