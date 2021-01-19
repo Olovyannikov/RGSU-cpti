@@ -30,6 +30,9 @@
     font-size: rem-calc(14);
     line-height: rem-calc(16.41);
     @include size(12);
+    display: flex;
+    justify-content: center;
+    width: 100%;
     @include md-block {
         @include size(2.5);
         margin-top: 0;

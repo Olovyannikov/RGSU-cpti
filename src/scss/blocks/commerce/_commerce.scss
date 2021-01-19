@@ -1,0 +1,91 @@
+.commerce__wrapper {
+    @include col;
+}
+
+.commerce__desc {
+    font-size: rem-calc(24);
+    line-height: rem-calc(28);
+    color: #485667;
+    padding: 23px 37px 26px 37px;
+    background: #f6f7fb;
+    border-radius: 2.5px;
+    border: 1px solid #bfcad8;
+    @include size(12);
+    margin: 0 0 29px;
+}
+
+.commerce__subdesc {
+    margin: 0 0 47px;
+    font-size: rem-calc(24);
+    line-height: rem-calc(28.13);
+    color: #485667;
+}
+
+.commerce__list {
+    @include list-reset;
+    @include row-flex;
+    max-width: 700px;
+    margin-bottom: 35px;
+}
+
+.commerce__item {
+    svg {
+        fill: $c-blue-400;
+        border: 3px solid $c-blue-400;;
+        border-radius: 5px;
+        padding: 5px;
+        margin-top: 51px;
+        margin-bottom: 25px;
+    }
+    border-radius: 2.5px;
+    background: #f6f7fb;
+    border: 1px solid #bfcad8;
+    @include col;
+    @include size(12);
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    align-items: center;
+    @include md-block {
+        @include size(4);
+        width: 325px;
+    }
+}
+
+.commerce__list-title {
+    font-weight: 400;
+    font-size: rem-calc(24);
+    line-height: rem-calc(28.13);
+    color: #00314F;
+    margin: 0 0 10px;
+}
+
+.commerce__list-desc {
+    font-weight: 300;
+    font-size: rem-calc(14);
+    line-height: rem-calc(16.41);
+    color: #485667;
+    text-align: center;
+    margin: 0 0 10px;
+    padding: 0 20px 25px;
+}
+
+.commerce__wrapper .features__list {
+    margin-bottom: 54px;
+}
+
+.commerce__article {
+    padding-bottom: 30px;
+}
+
+.commerce__offset {
+    padding: 0;
+    margin: 0 0 16px;
+    font-size: rem-calc(14);
+    line-height: rem-calc(16.41);
+    color: #485667;
+}
+
+.commerce__sub {
+    margin-bottom: 28px;
+}

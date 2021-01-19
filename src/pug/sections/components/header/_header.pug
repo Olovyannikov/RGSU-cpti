@@ -1,21 +1,22 @@
 .header__container.container
     .header__wrapper
         .header__logo
-            svg(width='130' height='40')
-                use(href="#logo")
-        h1.header__title.title Центр поддержки <br> технологий и инноваций        
+            a(href="/")
+                svg(width='130' height='40')
+                    use(href="#logo")
+        h1.header__title.title Центр поддержки <br> технологий и инноваций
         a(href="#" style="text-transform: uppercase").header__link.btn.btn--primary Связаться с нами
 .header__menu.menu
     .menu__container.container
         ul.menu__list
             li.menu__item
-                a(href="#") Услуги ЦПТИ
+                a(href="commerce.html") Услуги ЦПТИ
             li.menu__item
-                a(href="#") Информация
+                a(href="information.html") Информация
             li.menu__item.menu__item--last-child
-                a(href="#") Витрина интеллектуальной собственности
+                a(href="property.html") Витрина интеллектуальной собственности
             ul.social
-                li.social__item.social__item--vk 
+                li.social__item.social__item--vk
                     a(href="#" aria-label="Ссылка на VK") VK
                         svg(width='25' height='25')
                             use(href="#vk-logo")
@@ -26,4 +27,4 @@
                 li.social__item.social__item--instagram
                     a(href="#" aria-label="Ссылка на Instagram") Instagram
                         svg(width='25' height='25')
-                            use(href="#instagram-logo")        
+                            use(href="#instagram-logo")
