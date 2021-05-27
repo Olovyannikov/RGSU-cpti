@@ -2,33 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7dbe59b-e121-4656-a8ec-26ebfd630d77" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/scss/blocks/commerce/_commerce.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pug/pages/pages.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pug/sections/_pages.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pug/sections/components/pages/_pages.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/blocks/pages/_pages.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/commerce.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/commerce.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/style.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/fonts/roboto-v20-latin_cyrillic-300.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/build/fonts/roboto-v20-latin_cyrillic-300.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/fonts/roboto-v20-latin_cyrillic-500.woff" beforeDir="false" afterPath="$PROJECT_DIR$/build/fonts/roboto-v20-latin_cyrillic-500.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/fonts/roboto-v20-latin_cyrillic-500.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/build/fonts/roboto-v20-latin_cyrillic-500.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/fonts/roboto-v20-latin_cyrillic-700.woff" beforeDir="false" afterPath="$PROJECT_DIR$/build/fonts/roboto-v20-latin_cyrillic-700.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/fonts/roboto-v20-latin_cyrillic-700.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/build/fonts/roboto-v20-latin_cyrillic-700.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/fonts/roboto-v20-latin_cyrillic-regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/build/fonts/roboto-v20-latin_cyrillic-regular.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/fonts/roboto-v20-latin_cyrillic-regular.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/build/fonts/roboto-v20-latin_cyrillic-regular.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/ab-marks.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/adobe-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/adobe-icon.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/count.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/license.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/security.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/information.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/information.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/property.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/property.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/registration.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/registration.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pug/sections/components/commerce/_commerce.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/sections/components/commerce/_commerce.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pug/sections/components/header/_header.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/sections/components/header/_header.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/blocks/header/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/header/_header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/blocks/services/_services.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/services/_services.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/general/variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/general/variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/script.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/js/script.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/style.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,6 +20,13 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Pug File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -67,6 +56,7 @@
     <property name="node.js.selected.package.stylelint" value="$PROJECT_DIR$/node_modules/stylelint" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -86,6 +76,7 @@
       <updated>1610949972916</updated>
       <workItem from="1610950033025" duration="16595000" />
       <workItem from="1611039991821" duration="1889000" />
+      <workItem from="1622103118043" duration="381000" />
     </task>
     <task id="LOCAL-00001" summary="Update imgs">
       <created>1610981572643</created>
@@ -99,6 +90,17 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Update imgs" />
